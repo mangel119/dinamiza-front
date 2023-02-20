@@ -152,19 +152,7 @@ Footer.defaultProps = {
       ],
     },
   ],
-  copyright: (
-    <>
-      Copyright © {year} Material Tailwind by{" "}
-      <a
-        href="https://www.creative-tim.com?ref=mtk"
-        target="_blank"
-        className="text-blue-gray-500 transition-colors hover:text-blue-500"
-      >
-        Creative Tim
-      </a>
-      .
-    </>
-  ),
+  copyright: <>Copyright © {year} Material Tailwind.</>,
 };
 
 Footer.propTypes = {
