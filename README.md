@@ -1,7 +1,7 @@
 # Dinamiza Frontend Page
 
 ```
-material-tailwind-kit-react
+dinamiza-front-page
     ├── public
     │   ├── css
     │   └── img
