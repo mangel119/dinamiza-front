@@ -68,18 +68,20 @@ export function Home() {
                 Economía Digital
               </Typography>
               <Typography className="mb-8 font-normal text-blue-gray-500">
-                Descripción Economía digital
+                La economía digital se refiere al uso de las tecnologías de la información en los procesos de producción de bienes y servicios, así como en su comercialización y consumo. Este término pone de manifiesto cómo la industria crea productos y servicios nuevos o transforma los existentes, aprovechando la tecnología.
                 <br />
                 <br />
               </Typography>
-              <Button variant="outlined">saber más</Button>
+              <a target="_blank" href="https://talentotics2022.co">
+              <Button variant="outlined">Saber más</Button>
+              </a> 
             </div>
             <div className="mx-auto mt-24 flex w-full justify-center px-4 md:w-4/12 lg:mt-0">
               <Card className="shadow-lg shadow-gray-500/10">
                 <CardHeader className="relative h-56">
                   <img
                     alt="Card Image"
-                    src="/img/teamwork.jpeg"
+                    src="/img/talentotic.png"
                     className="h-full w-full"
                   />
                 </CardHeader>
@@ -89,10 +91,10 @@ export function Home() {
                     color="blue-gray"
                     className="mb-3 font-bold"
                   >
-                    Talento TIC 2023
+                    Talento TIC
                   </Typography>
                   <Typography className="font-normal text-blue-gray-500">
-                    Descripción e invitación a Talento TIC 2023
+                  Es una iniciativa de la Secretaría de Desarrollo Económico de Cali, cuyo objetivo es proveer al sector empresarial de Cali de personas que pudan suplir sus necesidades de talento humano con competencias en tecnología.
                   </Typography>
                 </CardBody>
               </Card>
@@ -104,7 +106,7 @@ export function Home() {
                 <CardHeader className="relative h-56">
                   <img
                     alt="Card Image"
-                    src="/img/teamwork.jpeg"
+                    src="/img/calicircular.png"
                     className="h-full w-full"
                   />
                 </CardHeader>
@@ -117,7 +119,7 @@ export function Home() {
                     CaliCircular
                   </Typography>
                   <Typography className="font-normal text-blue-gray-500">
-                    Descripción e invitación a Cali Circular
+                  Es un modelo de desarrollo y gestión de ciudad para fomentar la transición hacia la Economía Circular, el cual es gestionado a través de la Secretaría de Desarrollo Económico de Cali.
                   </Typography>
                 </CardBody>
               </Card>
@@ -134,11 +136,13 @@ export function Home() {
                 Economía Circular
               </Typography>
               <Typography className="mb-8 font-normal text-blue-gray-500">
-                Descripción Economía Circular
+              La economía circular promueve la eficiencia en el uso de materiales, agua y energía; considerando la capacidad de recuperación de los ecosistemas, el uso circular de los flujos de materiales y la extensión de la vida útil a través de la innovación tecnológica, colaboración y alianzas entre actores y el impulso de modelos de negocios sostenibles.
                 <br />
                 <br />
               </Typography>
-              <Button variant="outlined">saber más</Button>
+              <a target="_blank" href="http://calicircular.cali.gov.co">
+              <Button variant="outlined">Saber más</Button>
+              </a> 
             </div>
           </div>
         </div>
@@ -146,8 +150,7 @@ export function Home() {
       <section className="relative bg-blue-gray-50/50 py-24 px-4">
         <div className="container mx-auto">
           <PageTitle heading="¡Anímate!">
-            Inscríbete en alguna de las convocatorias que tenemos prepradas para
-            ti.
+            Inscríbete en alguna de las convocatorias que tenemos para ti.
           </PageTitle>
         </div>
       </section>

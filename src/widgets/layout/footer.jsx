@@ -10,10 +10,10 @@ export function Footer({ title, description, socials, menus, copyright }) {
         <div className="flex flex-wrap pt-6 text-center lg:text-left">
           <div className="w-full px-4 lg:w-6/12">
             <Typography variant="h4" className="mb-4" color="blue-gray">
-              {title}
+              Más Información
             </Typography>
             <Typography className="font-normal text-blue-gray-500">
-              {description}
+              Encuentra más información en nuestras redes sociales.
             </Typography>
             <div className="mx-auto mt-6 mb-8 flex justify-center gap-2 md:mb-0 lg:justify-start">
               {socials.map(({ color, name, path }) => (
@@ -86,73 +86,55 @@ Footer.defaultProps = {
     {
       color: "blue",
       name: "facebook",
-      path: "https://www.facebook.com/CreativeTim",
-    },
-    {
-      color: "light-blue",
-      name: "twitter",
-      path: "https://www.twitter.com/creativetim",
+      path: "https://www.facebook.com/AlcaldiaDeCali",
     },
     {
       color: "purple",
       name: "instagram",
-      path: "https://www.instagram.com/creativetimofficial/",
+      path: "https://www.instagram.com/alcaldiadecali",
     },
     {
-      color: "pink",
-      name: "dribbble",
-      path: "https://www.dribbble.com/creativetim",
+      color: "light-blue",
+      name: "twitter",
+      path: "https://twitter.com/AlcaldiaDeCali",
     },
     {
       color: "red",
       name: "youtube",
-      path: "https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w",
-    },
-    {
-      color: "black",
-      name: "github",
-      path: "https://github.com/creativetimofficial/material-tailwind",
+      path: "https://www.youtube.com/channel/UCHYP--lrgqtinykk2AMmX2Q",
     },
   ],
   menus: [
     {
-      name: "useful links",
+      name: "Otros Enlaces",
       items: [
-        { name: "About Us", path: "https://www.creative-tim.com/presentation" },
-        { name: "Blog", path: "https://www.creative-tim.com/blog" },
+        { name: "Sobre Nosotros", path: "http://localhost:5173/home" },
+        { name: "Convocatorias Generales", path: "http://localhost:5173/profile" },
         {
-          name: "Github",
-          path: "https://www.github.com/creativetimofficial/material-tailwind?ref=mtk",
+          name: "Convocatorias Fondo Solidario y de Oportunidades",
+          path: "http://localhost:5173/sign-in",
         },
         {
-          name: "Free Products",
-          path: "https://www.creative-tim.com/templates/free?ref=mtk",
+          name: "Convocatorias Sistema de Desarrollo Empresarial",
+          path: "http://localhost:5173/sign-up",
         },
       ],
     },
     {
-      name: "other resources",
+      name: "Otros Recursos",
       items: [
         {
-          name: "MIT License",
-          path: "https://github.com/creativetimofficial/material-tailwind/blob/main/LICENSE.md?ref=mtk",
+          name: "TalentoTIC",
+          path: "https://talentotics2022.co",
         },
         {
-          name: "Contribute",
-          path: "https://github.com/creativetimofficial/material-tailwind/blob/main/CONTRIBUTING.md?ref=mtk",
-        },
-        {
-          name: "Change Log",
-          path: "https://github.com/creativetimofficial/material-tailwind/blob/main/CHANGELOG.md?ref=mtk",
-        },
-        {
-          name: "Contact Us",
-          path: "https://creative-tim.com/contact-us?ref=mtk",
+          name: "CaliCircular",
+          path: "http://calicircular.cali.gov.co",
         },
       ],
     },
   ],
-  copyright: <>Copyright © {year} Material Tailwind.</>,
+  copyright: <>Copyright © {year} Alcaldia de Santiago de Cali.</>,
 };
 
 Footer.propTypes = {
