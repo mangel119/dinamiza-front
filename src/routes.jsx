@@ -10,25 +10,25 @@ import {
 export const routes = [
   {
     icon: HomeIcon,
-    name: "inicio",
+    name: "Inicio",
     path: "/home",
     element: <Home />,
   },
   {
     icon: UserCircleIcon,
-    name: "convocatorias",
+    name: "Convocatorias Generales",
     path: "/profile",
     element: <Profile />,
   },
   {
     icon: ArrowRightOnRectangleIcon,
-    name: "fondo solidario y de oportunidades",
+    name: "Convocatorias Fondo Solidario y de Oportunidades",
     path: "/sign-in",
     element: <SignIn />,
   },
   {
     icon: UserPlusIcon,
-    name: "sistema de desarrollo empresarial",
+    name: "Convocatorias Sistema de Desarrollo Empresarial",
     path: "/sign-up",
     element: <SignUp />,
   },

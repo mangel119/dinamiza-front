@@ -125,7 +125,7 @@ Footer.defaultProps = {
       items: [
         {
           name: "TalentoTIC",
-          path: "https://talentotics2022.co",
+          path: "https://talentotic.cali.gov.co",
         },
         {
           name: "CaliCircular",

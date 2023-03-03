@@ -72,7 +72,7 @@ export function Home() {
                 <br />
                 <br />
               </Typography>
-              <a target="_blank" href="https://talentotics2022.co">
+              <a target="_blank" href="https://talentotic.cali.gov.co">
               <Button variant="outlined">Saber más</Button>
               </a> 
             </div>

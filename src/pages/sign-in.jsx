@@ -19,7 +19,7 @@ export function SignIn() {
             <div className="px-6">
               <div className="my-8 text-center">
                 <Typography variant="h2" color="blue-gray" className="mb-2">
-                  Fondo Solidario y de Oportunidades
+                  Convocatorias Fondo Solidario y de Oportunidades
                 </Typography>
                 <div className="mb-2 flex items-center justify-center gap-2">
                   <MapPinIcon className="-mt-px h-4 w-4 text-blue-gray-700" />
