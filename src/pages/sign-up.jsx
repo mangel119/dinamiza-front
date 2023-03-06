@@ -1,15 +1,10 @@
-import { Link } from "react-router-dom";
+import { Avatar, Typography, Button } from "@material-tailwind/react";
 import {
-  Card,
-  CardHeader,
-  CardBody,
-  CardFooter,
-  Input,
-  Checkbox,
-  Button,
-  Typography,
-} from "@material-tailwind/react";
-import { SimpleFooter } from "@/widgets/layout";
+  MapPinIcon,
+  BriefcaseIcon,
+  BuildingLibraryIcon,
+} from "@heroicons/react/24/solid";
+import { Footer } from "@/widgets/layout";
 
 export function SignUp() {
   return (
