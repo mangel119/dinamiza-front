@@ -28,7 +28,7 @@ export const routes = [
   },
   {
     icon: UserPlusIcon,
-    name: "Convocatorias Sistema de Desarrollo Empresarial",
+    name: "Convocatorias Sistema Desarrollo Empresarial",
     path: "/sign-up",
     element: <SignUp />,
   },
