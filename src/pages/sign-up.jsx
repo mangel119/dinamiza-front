@@ -1,70 +1,50 @@
-import { Link } from "react-router-dom";
+import { Avatar, Typography, Button } from "@material-tailwind/react";
 import {
-  Card,
-  CardHeader,
-  CardBody,
-  CardFooter,
-  Input,
-  Checkbox,
-  Button,
-  Typography,
-} from "@material-tailwind/react";
-import { SimpleFooter } from "@/widgets/layout";
+  MapPinIcon,
+  BriefcaseIcon,
+  BuildingLibraryIcon,
+} from "@heroicons/react/24/solid";
+import { Footer } from "@/widgets/layout";
 
 export function SignUp() {
   return (
     <>
-      <img
-        src="/img/background-2.jpg"
-        className="absolute inset-0 z-0 h-full w-full object-cover"
-      />
-      <div className="absolute inset-0 z-0 h-full w-full bg-black/50" />
-      <div className="container mx-auto p-4">
-        <Card className="absolute top-2/4 left-2/4 w-full max-w-[24rem] -translate-y-2/4 -translate-x-2/4">
-          <CardHeader
-            variant="gradient"
-            color="blue"
-            className="mb-4 grid h-28 place-items-center"
-          >
-            <Typography variant="h3" color="white">
-              Sign Up
-            </Typography>
-          </CardHeader>
-          <CardBody className="flex flex-col gap-4">
-            <Input variant="standard" label="Name" size="lg" />
-            <Input variant="standard" type="email" label="Email" size="lg" />
-            <Input
-              variant="standard"
-              type="password"
-              label="Password"
-              size="lg"
-            />
-            <div className="-ml-2.5">
-              <Checkbox label="I agree the Terms and Conditions" />
-            </div>
-          </CardBody>
-          <CardFooter className="pt-0">
-            <Button variant="gradient" fullWidth>
-              Sign Up
-            </Button>
-            <Typography variant="small" className="mt-6 flex justify-center">
-              Already have an account?
-              <Link to="/sign-in">
-                <Typography
-                  as="span"
-                  variant="small"
-                  color="blue"
-                  className="ml-1 font-bold"
-                >
-                  Sign in
+      <section className="relative block h-[50vh]">
+        <div className="bg-profile-background absolute top-0 h-full w-full bg-[url('/img/teamwork.jpeg')] bg-cover bg-center" />
+        <div className="absolute top-0 h-full w-full bg-black/75 bg-cover bg-center" />
+      </section>
+      <section className="relative bg-blue-gray-50/50 py-16 px-4">
+        <div className="container mx-auto">
+          <div className="relative mb-6 -mt-64 flex w-full min-w-0 flex-col break-words rounded-3xl bg-white shadow-xl shadow-gray-500/5">
+            <div className="px-6">
+              <div className="my-8 text-center">
+                <Typography variant="h2" color="blue-gray" className="mb-2">
+                  Sistema de Desarrollo Empresarial
                 </Typography>
-              </Link>
-            </Typography>
-          </CardFooter>
-        </Card>
-      </div>
-      <div className="container absolute bottom-6 left-2/4 z-10 mx-auto -translate-x-2/4 text-white">
-        <SimpleFooter />
+                <div className="mb-2 flex items-center justify-center gap-2">
+                  <MapPinIcon className="-mt-px h-4 w-4 text-blue-gray-700" />
+                  <Typography className="font-medium text-blue-gray-700">
+                    Santiago de Cali, Valle del Cauca
+                  </Typography>
+                </div>
+              </div>
+
+              <div className="mb-10 border-t border-blue-gray-50 py-6 text-center">
+                <div className="mt-2 flex flex-wrap justify-center">
+                  <div className="flex w-full flex-col items-center px-4 lg:w-9/12">
+                    <Typography className="mb-8 font-normal text-blue-gray-500">
+                    El Sistema de Desarrollo Empresarial es un organismo que reúne a las entidades de apoyo y fortalecimiento a emprendedores y empresarios de la ciudad. Conectamos a los emprendedores y empresarios con las oportunidades que los impulsan a crecer.
+                    </Typography>
+                    <Button variant="text">Ver más</Button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div className="bg-blue-gray-50/50">
+        <Footer />
       </div>
     </>
   );
