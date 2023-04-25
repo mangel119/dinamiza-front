@@ -7,6 +7,7 @@ import {
 import { Footer } from "@/widgets/layout";
 
 import { Link } from "react-router-dom";
+import { Avatar, Typography, Button } from "@material-tailwind/react";
 import {
   Card,
   CardHeader,
