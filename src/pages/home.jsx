@@ -78,7 +78,7 @@ export function Home() {
             </div>
             <div className="mx-auto mt-24 flex w-full justify-center px-4 md:w-4/12 lg:mt-0">
               <Card className="shadow-lg shadow-gray-500/10">
-                <CardHeader className="relative h-56">
+                <CardHeader className="h-50">
                   <img
                     alt="Card Image"
                     src="/img/talentotic.png"
@@ -101,29 +101,6 @@ export function Home() {
             </div>
           </div>
           <div className="mt-32 flex flex-wrap items-center">
-            <div className="mx-auto mt-24 flex w-full justify-center px-4 md:w-4/12 lg:mt-0">
-              <Card className="shadow-lg shadow-gray-500/10">
-                <CardHeader className="relative h-56">
-                  <img
-                    alt="Card Image"
-                    src="/img/calicircular.png"
-                    className="h-full w-full"
-                  />
-                </CardHeader>
-                <CardBody>
-                  <Typography
-                    variant="h5"
-                    color="blue-gray"
-                    className="mb-3 font-bold"
-                  >
-                    CaliCircular
-                  </Typography>
-                  <Typography className="font-normal text-blue-gray-500">
-                  Es un modelo de desarrollo y gestión de ciudad para fomentar la transición hacia la Economía Circular, el cual es gestionado a través de la Secretaría de Desarrollo Económico de Cali.
-                  </Typography>
-                </CardBody>
-              </Card>
-            </div>
             <div className="mx-auto -mt-8 w-full px-4 md:w-5/12">
               <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-full bg-white p-3 text-center shadow-lg">
                 <ArrowPathIcon className="h-6 w-6 text-blue-gray-900" />
@@ -144,10 +121,33 @@ export function Home() {
               <Button variant="outlined">Saber más</Button>
               </a> 
             </div>
+            <div className="mx-auto mt-24 flex w-full justify-center px-4 md:w-4/12 lg:mt-0">
+              <Card className="shadow-lg shadow-gray-500/10">
+                <CardHeader className="relative h-50">
+                  <img
+                    alt="Card Image"
+                    src="/img/calicircular.png"
+                    className="h-full w-full"
+                  />
+                </CardHeader>
+                <CardBody>
+                  <Typography
+                    variant="h5"
+                    color="blue-gray"
+                    className="mb-3 font-bold"
+                  >
+                    CaliCircular
+                  </Typography>
+                  <Typography className="font-normal text-blue-gray-500">
+                  Es un modelo de desarrollo y gestión de ciudad para fomentar la transición hacia la Economía Circular, el cual es gestionado a través de la Secretaría de Desarrollo Económico de Cali.
+                  </Typography>
+                </CardBody>
+              </Card>
+            </div>
           </div>
         </div>
       </section>
-      <section className="relative bg-blue-gray-50/50 py-24 px-4">
+      <section className="relative bg-gray-50 py-24 px-4">
         <div className="container mx-auto">
           <PageTitle heading="¡Anímate!">
             Inscríbete en alguna de las convocatorias que tenemos para ti.

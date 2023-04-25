@@ -5,7 +5,7 @@ const year = new Date().getFullYear();
 
 export function Footer({ title, description, socials, menus, copyright }) {
   return (
-    <footer className="relative px-4 pt-8 pb-6">
+    <footer className="relative px-4 pt-8 pb-6 bg-gray-200">
       <div className="container mx-auto">
         <div className="flex flex-wrap pt-6 text-center lg:text-left">
           <div className="w-full px-4 lg:w-6/12">
@@ -61,6 +61,13 @@ export function Footer({ title, description, socials, menus, copyright }) {
               </div>
             ))}
           </div>
+        </div>
+        <div className="mx-auto flex w-full justify-center md:w-7/12 lg:mt-0">
+                  <img
+                    alt="logos"
+                    src="/img/logos.png"
+                    className="h-full w-full"
+                  />
         </div>
         <hr className="my-6 border-gray-300" />
         <div className="flex flex-wrap items-center justify-center md:justify-between">
