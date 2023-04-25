@@ -7,7 +7,6 @@ import {
 import { Footer } from "@/widgets/layout";
 
 import { Link } from "react-router-dom";
-import { Avatar, Typography, Button } from "@material-tailwind/react";
 import {
   Card,
   CardHeader,
@@ -63,16 +62,16 @@ export function SignUp() {
                   La Alcaldía de Cali a través de la Secretaría de Desarrollo Económico lidera el Sistema de Desarrollo Empresarial que apoya y acompaña a empresas de la ciudad para su crecimiento y fortalecimiento por medio de la articulación de 58 entidades enfocadas al emprendimiento y que aportan al progreso de Cali.
                   El SIDE tiene como propósito facilitar las condiciones para el fortalecimiento del tejido empresarial en el Municipio de Santiago de Cali.
                   <li>
-                  1.Identificar la necesidad y oportunidades en el ecosistema.
+                    1.Identificar la necesidad y oportunidades en el ecosistema.
                   </li>
                   <li>
-                  2.Dinamizar un modelo de desarrollo empresarial para atención al empresario.
+                    2.Dinamizar un modelo de desarrollo empresarial para atención al empresario.
                   </li>
                   <li>
-                  3.Generar estrategias que permitan cohesión y pertinencia.
+                    3.Generar estrategias que permitan cohesión y pertinencia.
                   </li>
                   <li>
-                  4.Propiciar la continuidad de un crecimiento colectivo.
+                    4.Propiciar la continuidad de un crecimiento colectivo.
                   </li>
                 </Typography>
               </div>
