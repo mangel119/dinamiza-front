@@ -5,7 +5,7 @@ import {
   BuildingLibraryIcon,
 } from "@heroicons/react/24/solid";
 import { Footer } from "@/widgets/layout";
-import { Table } from "@/widgets/table";
+import { Table } from "@/widgets/cards";
 
 import { Link } from "react-router-dom";
 import {
