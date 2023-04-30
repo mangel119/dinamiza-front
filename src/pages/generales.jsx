@@ -5,6 +5,7 @@ import {
   BuildingLibraryIcon,
 } from "@heroicons/react/24/solid";
 import { Footer } from "@/widgets/layout";
+import { Table } from "@/widgets/table";
 
 import { Link } from "react-router-dom";
 import {
@@ -16,7 +17,9 @@ import {
   Checkbox,
 } from "@material-tailwind/react";
 
-export function SignUp() {
+import './App.css';
+
+export function Generales() {
   return (
     <>
       <section className="relative block h-[50vh]">
@@ -29,7 +32,7 @@ export function SignUp() {
             <div className="px-6">
               <div className="my-8 text-center">
                 <Typography variant="h2" color="blue-gray" className="mb-2">
-                  Convocatorias Sistema Desarrollo Empresarial
+                  Convocatorias Generales
                 </Typography>
                 <div className="mb-2 flex items-center justify-center gap-2">
                   <MapPinIcon className="-mt-px h-4 w-4 text-blue-gray-700" />
@@ -43,37 +46,14 @@ export function SignUp() {
                 <div className="mt-2 flex flex-wrap justify-center">
                   <div className="flex w-full flex-col items-center px-4 lg:w-9/12">
                     <Typography className="mb-8 font-normal text-blue-gray-500">
-                      El Sistema de Desarrollo Empresarial es un organismo que reúne a las entidades de apoyo y fortalecimiento a emprendedores y empresarios de la ciudad. Conectamos a los emprendedores y empresarios con las oportunidades que los impulsan a crecer.
+                      En este apartado encontraras más información relacionada con todas las convocatorias vigentes ofrecidas por la Secretaría de Desarrollo Económico de Cali para la comunidad.
                     </Typography>
                     <Button variant="text">Ver más</Button>
                   </div>
+                  <div>
+                    <Table />
+                  </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="relative bg-gray-50">
-        <div className="container mx-auto">
-          <div className="px-6">
-            <div className="flex flex-wrap justify-center">
-              <div className="flex w-full flex-col text-center px-4 lg:w-9/12">
-                <Typography className="mb-8 font-normal text-blue-gray-500">
-                  La Alcaldía de Cali a través de la Secretaría de Desarrollo Económico lidera el Sistema de Desarrollo Empresarial que apoya y acompaña a empresas de la ciudad para su crecimiento y fortalecimiento por medio de la articulación de 58 entidades enfocadas al emprendimiento y que aportan al progreso de Cali.
-                  El SIDE tiene como propósito facilitar las condiciones para el fortalecimiento del tejido empresarial en el Municipio de Santiago de Cali.
-                  <li>
-                    1.Identificar la necesidad y oportunidades en el ecosistema.
-                  </li>
-                  <li>
-                    2.Dinamizar un modelo de desarrollo empresarial para atención al empresario.
-                  </li>
-                  <li>
-                    3.Generar estrategias que permitan cohesión y pertinencia.
-                  </li>
-                  <li>
-                    4.Propiciar la continuidad de un crecimiento colectivo.
-                  </li>
-                </Typography>
               </div>
             </div>
           </div>
@@ -86,4 +66,4 @@ export function SignUp() {
   );
 }
 
-export default SignUp;
+export default Generales;

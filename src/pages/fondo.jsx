@@ -16,7 +16,7 @@ import {
   Checkbox,
 } from "@material-tailwind/react";
 
-export function SignIn() {
+export function Fondo() {
   return (
     <>
       <section className="relative block h-[50vh]">
@@ -191,4 +191,4 @@ export function SignIn() {
   );
 }
 
-export default SignIn;
+export default Fondo;

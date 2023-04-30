@@ -14,7 +14,7 @@ import { PageTitle, Footer } from "@/widgets/layout";
 import { FeatureCard, TeamCard } from "@/widgets/cards";
 import { featuresData, teamData, contactData } from "@/data";
 
-export function Home() {
+export function Inicio() {
   return (
     <>
       <div className="relative flex h-screen content-center items-center justify-center pt-16 pb-32">
@@ -161,4 +161,4 @@ export function Home() {
   );
 }
 
-export default Home;
+export default Inicio;

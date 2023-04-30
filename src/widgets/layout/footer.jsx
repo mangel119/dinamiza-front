@@ -115,15 +115,15 @@ Footer.defaultProps = {
     {
       name: "Otros Enlaces",
       items: [
-        { name: "Sobre Nosotros", path: "http://localhost:5173/home" },
-        { name: "Convocatorias Generales", path: "http://localhost:5173/profile" },
+        { name: "Sobre Nosotros", path: "http://localhost:5173/inicio" },
+        { name: "Convocatorias Generales", path: "http://localhost:5173/generales" },
         {
           name: "Convocatorias Fondo Solidario y de Oportunidades",
-          path: "http://localhost:5173/sign-in",
+          path: "http://localhost:5173/fondo",
         },
         {
           name: "Convocatorias Sistema de Desarrollo Empresarial",
-          path: "http://localhost:5173/sign-up",
+          path: "http://localhost:5173/sistema",
         },
       ],
     },

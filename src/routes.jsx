@@ -1,4 +1,4 @@
-import { Home, Profile, SignIn, SignUp } from "@/pages";
+import { Inicio, Generales, Fondo, Sistema } from "@/pages";
 import {
   HomeIcon,
   UserCircleIcon,
@@ -11,26 +11,26 @@ export const routes = [
   {
     icon: HomeIcon,
     name: "Inicio",
-    path: "/home",
-    element: <Home />,
+    path: "/inicio",
+    element: <Inicio />,
   },
   {
     icon: UserCircleIcon,
     name: "Convocatorias Generales",
-    path: "/profile",
-    element: <Profile />,
+    path: "/generales",
+    element: <Generales />,
   },
   {
     icon: ArrowRightOnRectangleIcon,
     name: "Convocatorias Fondo Solidario y de Oportunidades",
-    path: "/sign-in",
-    element: <SignIn />,
+    path: "/fondo",
+    element: <Fondo />,
   },
   {
     icon: UserPlusIcon,
     name: "Convocatorias Sistema Desarrollo Empresarial",
-    path: "/sign-up",
-    element: <SignUp />,
+    path: "/sistema",
+    element: <Sistema />,
   },
 ];
 
