@@ -13,7 +13,7 @@ export function Table() {{}
       }
     }
   }
-  list.classNaList.toggle("hidden");
+
   return (
     <div>
       <div className="sm:px-6 w-full">

@@ -1,20 +1,9 @@
-import { Avatar, Typography, Button } from "@material-tailwind/react";
+import { Typography, Button } from "@material-tailwind/react";
 import {
   MapPinIcon,
-  BriefcaseIcon,
-  BuildingLibraryIcon,
 } from "@heroicons/react/24/solid";
 import { Footer } from "@/widgets/layout";
-
-import { Link } from "react-router-dom";
-import {
-  Card,
-  CardHeader,
-  CardBody,
-  CardFooter,
-  Input,
-  Checkbox,
-} from "@material-tailwind/react";
+import { Table } from "@/widgets/cards";
 
 export function Sistema() {
   return (
@@ -46,6 +35,9 @@ export function Sistema() {
                       El Sistema de Desarrollo Empresarial es un organismo que reúne a las entidades de apoyo y fortalecimiento a emprendedores y empresarios de la ciudad. Conectamos a los emprendedores y empresarios con las oportunidades que los impulsan a crecer.
                     </Typography>
                     <Button variant="text">Ver más</Button>
+                  </div>
+                  <div>
+                    <Table />
                   </div>
                 </div>
               </div>

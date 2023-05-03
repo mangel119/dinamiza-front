@@ -4,7 +4,6 @@ import {
   UserCircleIcon,
   ArrowRightOnRectangleIcon,
   UserPlusIcon,
-  DocumentTextIcon,
 } from "@heroicons/react/24/solid";
 
 export const routes = [

@@ -1,10 +1,9 @@
-import { Avatar, Typography, Button } from "@material-tailwind/react";
+import { Typography, Button } from "@material-tailwind/react";
 import {
   MapPinIcon,
-  BriefcaseIcon,
-  BuildingLibraryIcon,
 } from "@heroicons/react/24/solid";
 import { Footer } from "@/widgets/layout";
+import { Table } from "@/widgets/cards";
 
 export function Fondo() {
   return (
@@ -35,6 +34,9 @@ export function Fondo() {
                       El Fondo Solidario y de Oportunidades es una iniciativa de la Administración Distrital, que busca apoyar a los microempresarios y vendedores formales e informales, para fortalecer sus unidades de negocio a través de un crédito público.
                     </Typography>
                     <Button variant="text">Ver más</Button>
+                  </div>
+                  <div>
+                    <Table />
                   </div>
                 </div>
               </div>

@@ -1,21 +1,9 @@
-import { Avatar, Typography, Button } from "@material-tailwind/react";
+import { Typography, Button } from "@material-tailwind/react";
 import {
   MapPinIcon,
-  BriefcaseIcon,
-  BuildingLibraryIcon,
 } from "@heroicons/react/24/solid";
 import { Footer } from "@/widgets/layout";
 import { Table } from "@/widgets/cards";
-
-import { Link } from "react-router-dom";
-import {
-  Card,
-  CardHeader,
-  CardBody,
-  CardFooter,
-  Input,
-  Checkbox,
-} from "@material-tailwind/react";
 
 import './App.css';
 
