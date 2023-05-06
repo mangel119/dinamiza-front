@@ -6,16 +6,6 @@ import {
 } from "@heroicons/react/24/solid";
 import { Footer } from "@/widgets/layout";
 
-import { Link } from "react-router-dom";
-import {
-  Card,
-  CardHeader,
-  CardBody,
-  CardFooter,
-  Input,
-  Checkbox,
-} from "@material-tailwind/react";
-
 export function Fondo() {
   return (
     <>
@@ -59,6 +49,7 @@ export function Fondo() {
               <Typography variant="h2" color="blue-gray" className="mb-2">
                 Antecedentes
               </Typography>
+              <div className="mb-0 border-t border-blue-gray-50 py-2 text-center"></div>
             </div>
             <div className="mt-2 flex flex-wrap justify-center">
               <div className="flex w-full flex-col text-center px-4 lg:w-9/12">
@@ -83,6 +74,7 @@ export function Fondo() {
               <Typography variant="h2" color="blue-gray" className="mb-2">
                 Objetivo
               </Typography>
+              <div className="mb-0 border-t border-blue-gray-50 py-2 text-center"></div>
             </div>
             <div className="mt-2 flex flex-wrap justify-center">
               <div className="flex w-full flex-col text-center px-4 lg:w-9/12">
@@ -105,6 +97,7 @@ export function Fondo() {
               <Typography variant="h2" color="blue-gray" className="mb-2">
                 Población Objetivo
               </Typography>
+              <div className="mb-0 border-t border-blue-gray-50 py-2 text-center"></div>
             </div>
             <div className="mt-2 flex flex-wrap justify-center">
               <div className="flex w-full flex-col text-center px-4 lg:w-9/12">
@@ -126,6 +119,7 @@ export function Fondo() {
               <Typography variant="h2" color="blue-gray" className="mb-2">
                 Líneas de crédito
               </Typography>
+              <div className="mb-0 border-t border-blue-gray-50 py-2 text-center"></div>
             </div>
             <div className="container mx-auto">
               <div className="px-6">

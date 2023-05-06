@@ -1,4 +1,4 @@
-export function Table() {
+export function Table() {{}
   function dropdownFunction(element) {
     var dropdowns = document.getElementsByclassNameName("dropdown-content");
     var i;
@@ -13,7 +13,7 @@ export function Table() {
       }
     }
   }
-  list.classNameList.toggle("hidden");
+  list.classNaList.toggle("hidden");
   return (
     <div>
       <div className="sm:px-6 w-full">
