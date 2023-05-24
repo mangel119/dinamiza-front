@@ -4,6 +4,7 @@ import {
 } from "@heroicons/react/24/solid";
 import { Footer } from "@/widgets/layout";
 import { Table } from "@/widgets/cards";
+import { Convcard } from "@/widgets/cards/convcard.jsx";
 
 export function Sistema() {
   return (
@@ -34,10 +35,9 @@ export function Sistema() {
                     <Typography className="mb-8 font-normal text-blue-gray-500">
                       El Sistema de Desarrollo Empresarial es un organismo que reúne a las entidades de apoyo y fortalecimiento a emprendedores y empresarios de la ciudad. Conectamos a los emprendedores y empresarios con las oportunidades que los impulsan a crecer.
                     </Typography>
-                    <Button variant="text">Ver más</Button>
                   </div>
                   <div>
-                    <Table />
+                    <Convcard />
                   </div>
                 </div>
               </div>

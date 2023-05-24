@@ -4,6 +4,7 @@ import {
 } from "@heroicons/react/24/solid";
 import { Footer } from "@/widgets/layout";
 import { Table } from "@/widgets/cards";
+import { Convcard } from "@/widgets/cards/convcard.jsx";
 
 export function Fondo() {
   return (
@@ -33,10 +34,9 @@ export function Fondo() {
                     <Typography className="mb-8 font-normal text-blue-gray-500">
                       El Fondo Solidario y de Oportunidades es una iniciativa de la Administración Distrital, que busca apoyar a los microempresarios y vendedores formales e informales, para fortalecer sus unidades de negocio a través de un crédito público.
                     </Typography>
-                    <Button variant="text">Ver más</Button>
                   </div>
                   <div>
-                    <Table />
+                    <Convcard />
                   </div>
                 </div>
               </div>

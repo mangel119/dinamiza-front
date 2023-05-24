@@ -4,6 +4,7 @@ import {
 } from "@heroicons/react/24/solid";
 import { Footer } from "@/widgets/layout";
 import { Table } from "@/widgets/cards";
+import { Convcard } from "@/widgets/cards/convcard.jsx";
 
 import './App.css';
 
@@ -36,10 +37,9 @@ export function Generales() {
                     <Typography className="mb-8 font-normal text-blue-gray-500">
                       En este apartado encontraras más información relacionada con todas las convocatorias vigentes ofrecidas por la Secretaría de Desarrollo Económico de Cali para la comunidad.
                     </Typography>
-                    <Button variant="text">Ver más</Button>
                   </div>
                   <div>
-                    <Table />
+                    <Convcard />
                   </div>
                 </div>
               </div>
