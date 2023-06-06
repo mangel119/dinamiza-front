@@ -35,7 +35,12 @@ export function Fondo() {
                       El Fondo Solidario y de Oportunidades es una iniciativa de la Administración Distrital, que busca apoyar a los microempresarios y vendedores formales e informales, para fortalecer sus unidades de negocio a través de un crédito público.
                     </Typography>
                   </div>
-                  <div>
+                  <div className="container mx-auto flex flex-wrap justify-center">
+                    <Convcard />
+                    <Convcard />
+                    <Convcard />
+                    <Convcard />
+                    <Convcard />
                     <Convcard />
                   </div>
                 </div>

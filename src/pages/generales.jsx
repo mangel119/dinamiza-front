@@ -38,7 +38,12 @@ export function Generales() {
                       En este apartado encontraras más información relacionada con todas las convocatorias vigentes ofrecidas por la Secretaría de Desarrollo Económico de Cali para la comunidad.
                     </Typography>
                   </div>
-                  <div>
+                  <div className="container mx-auto flex flex-wrap justify-center">
+                    <Convcard />
+                    <Convcard />
+                    <Convcard />
+                    <Convcard />
+                    <Convcard />
                     <Convcard />
                   </div>
                 </div>

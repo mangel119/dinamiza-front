@@ -26,7 +26,7 @@ export function Convcard() {
   }, []);
 
   return (
-    <Card className="mt-6 w-96">
+    <Card className="m-5 w-96">
       <CardHeader color="blue-gray" className="relative h-56">
         <img
           src="public\img\teamwork.jpeg"

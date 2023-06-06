@@ -34,6 +34,7 @@ export function Expand() {
           praesentium magni corrupti explicabo!
         </DialogBody>
         <DialogFooter>
+{/*
           <Button
             variant="text"
             color="red"
@@ -42,12 +43,13 @@ export function Expand() {
           >
             <span>Cerrar</span>
           </Button>
+*/}
           <Button
             variant="gradient"
-            color="green"
+            color="red"
             onClick={() => handleOpen(null)}
           >
-            <span>Aceptar</span>
+            <span>Cerrar</span>
           </Button>
         </DialogFooter>
       </Dialog>
