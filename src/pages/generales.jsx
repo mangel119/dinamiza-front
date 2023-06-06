@@ -40,11 +40,6 @@ export function Generales() {
                   </div>
                   <div className="container mx-auto flex flex-wrap justify-center">
                     <Convcard />
-                    <Convcard />
-                    <Convcard />
-                    <Convcard />
-                    <Convcard />
-                    <Convcard />
                   </div>
                 </div>
               </div>

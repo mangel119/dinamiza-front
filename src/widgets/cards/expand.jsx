@@ -7,7 +7,7 @@ import {
   DialogFooter,
 } from "@material-tailwind/react";
  
-export function Expand() {
+export function Expand(props) {
   const [size, setSize] = useState(null);
  
   const handleOpen = (value) => setSize(value);
@@ -26,12 +26,9 @@ export function Expand() {
         size={size || "xxl"}
         handler={handleOpen}
       >
-        <DialogHeader>Convocatoria</DialogHeader>
+        <DialogHeader>{props.propiedad1}</DialogHeader>
         <DialogBody divider>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus ad
-          reprehenderit omnis perspiciatis aut odit! Unde architecto
-          perspiciatis, dolorum dolorem iure quia saepe autem accusamus eum
-          praesentium magni corrupti explicabo!
+          {props.propiedad2}
         </DialogBody>
         <DialogFooter>
 {/*
