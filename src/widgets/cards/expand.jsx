@@ -15,15 +15,15 @@ export function Expand(props) {
   return (
     <Fragment>
       <div className="flex gap-3">
-        <Button onClick={() => handleOpen("xxl")} variant="gradient">
+        <Button onClick={() => handleOpen("xl")} variant="gradient">
           Ver más
         </Button>
       </div>
       <Dialog
         open={
-          size === "xxl"
+          size === "xl"
         }
-        size={size || "xxl"}
+        size={size || "xl"}
         handler={handleOpen}
       >
         <DialogHeader>{props.propiedad1}</DialogHeader>
