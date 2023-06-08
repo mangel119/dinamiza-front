@@ -36,17 +36,28 @@ export function Convcard() {
       {data.map((item) => (
         <Card className="m-5 w-96" key={item.id}>
           <CardHeader color="blue-gray" className="relative h-56">
-            <img src="public\img\teamwork.jpeg" alt="img-blur-shadow" layout="fill" />
+            <img src={item.advertising} alt="img-blur-shadow" layout="fill" />
           </CardHeader>
           <CardBody>
             <Typography variant="h5" color="blue-gray" className="mb-2">
               {item.name}
             </Typography>
-            <Typography>{item.description}</Typography>
+            <div>
+            <Typography className="truncate ...">
+              {item.description}
+            </Typography>
+            </div>
           </CardBody>
           <CardFooter className="pt-0">
             <div className="mb-2 flex items-center justify-center gap-2">
-              <Expand propiedad1={item.name} propiedad2={item.description} />
+              <Expand nombre={item.name} 
+              descripcion={item.description} 
+              imagen={item.advertising} 
+              pdf={item.terms} 
+              inicio={item.dateStart} 
+              fin={item.dateEnd} 
+              equipo={item.team} 
+              categoria={item.category}/>
             </div>
           </CardFooter>
         </Card>
