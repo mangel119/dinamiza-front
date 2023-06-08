@@ -35,7 +35,7 @@ export function Convcard() {
     <>
       {data.map((item) => (
         <Card className="m-5 w-96" key={item.id}>
-          <CardHeader color="blue-gray" className="relative h-56">
+          <CardHeader color="blue-gray" className="relative h-48">
             <img src={item.advertising} alt="img-blur-shadow" layout="fill" />
           </CardHeader>
           <CardBody>

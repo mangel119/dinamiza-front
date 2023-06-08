@@ -2,9 +2,9 @@ import { Fragment, useState } from "react";
 import {
   Button,
   Dialog,
-  DialogHeader,
   DialogBody,
   DialogFooter,
+  DialogHeader,
   Typography,
 } from "@material-tailwind/react";
 
@@ -21,9 +21,7 @@ export function Expand(props) {
         </Button>
       </div>
       <Dialog
-        open={
-          size === "xl"
-        }
+        open={size === "xl"}
         size={size || "xl"}
         handler={handleOpen}
       >
@@ -31,38 +29,38 @@ export function Expand(props) {
           <div>
             <DialogHeader>{props.nombre}</DialogHeader>
             <DialogBody divider>
-              {props.descripcion}
-              <div className="columns-4">
-              <Typography variant="h6">
-                Equipo:
-              </Typography>
-              <Typography >
-                {props.equipo}
-              </Typography>
-              <Typography variant="h6">
-                Categoria:
-              </Typography>
-              <Typography >
-                {props.categoria}
-              </Typography>
-              <Typography variant="h6">
-                Inicio:
-              </Typography>
-              <Typography >
-                {new Date(props.inicio).toLocaleDateString('es-ES')}
-              </Typography>
-              <Typography variant="h6">
-                Fin:
-              </Typography>
-              <Typography >
-                {new Date(props.fin).toLocaleDateString('es-ES')}
-              </Typography>
+              <div className="h-[8rem] overflow-scroll">
+                {props.descripcion}
+              </div>
+              <div className="columns-2 mt-4">
+                <Typography variant="h6">
+                  Equipo:
+                </Typography>
+                <Typography>
+                  {props.equipo}
+                </Typography>
+                <Typography variant="h6">
+                  Categoria:
+                </Typography>
+                <Typography>
+                  {props.categoria}
+                </Typography>
+                <Typography variant="h6">
+                  Inicio:
+                </Typography>
+                <Typography>
+                  {new Date(props.inicio).toLocaleDateString("es-ES")}
+                </Typography>
+                <Typography variant="h6">
+                  Fin:
+                </Typography>
+                <Typography>
+                  {new Date(props.fin).toLocaleDateString("es-ES")}
+                </Typography>
               </div>
             </DialogBody>
-            <div className="pt-16 flex items-center justify-center">
-              <Button
-                color="blue"
-              >
+            <div className="fixed ml-4 pt-4 flex items-center justify-center">
+              <Button color="blue">
                 <a href={props.pdf} target="_blank">Términos y Referencias</a>
               </Button>
             </div>
@@ -72,7 +70,8 @@ export function Expand(props) {
           </div>
         </div>
         <DialogFooter>
-          {/*
+          {
+            /*
           <Button
             variant="text"
             color="red"
@@ -81,7 +80,8 @@ export function Expand(props) {
           >
             <span>Cerrar</span>
           </Button>
-*/}
+            */
+          }
           <Button
             variant="gradient"
             color="red"
