@@ -2,6 +2,7 @@ import {
   StarIcon,
   UserGroupIcon,
   BuildingOffice2Icon,
+  UserIcon,
 } from "@heroicons/react/24/solid";
 
 export const featuresData = [
@@ -25,6 +26,13 @@ export const featuresData = [
     icon: BuildingOffice2Icon,
     description:
       "Entérate del  organismo que reúne a las entidades de apoyo y fortalecimiento a emprendedores y empresarios de la ciudad. Conectamos a los emprendedores y empresarios con las oportunidades que los impulsan a crecer.",
+  },
+  {
+    color: "yellow",
+    title: "Convocatorias Juventudes",
+    icon: UserIcon,
+    description:
+      "El propósito de estas convocatorias es fomentar la participación activa de los jóvenes en áreas como el emprendimiento, el liderazgo, el arte y la cultura, la ciencia y tecnología, el voluntariado, el medio ambiente, los derechos humanos, entre otros.",
   },
 ];
 

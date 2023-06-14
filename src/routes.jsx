@@ -1,4 +1,4 @@
-import { Inicio, Generales, Fondo, Sistema } from "@/pages";
+import { Inicio, Generales, Fondo, Sistema, Juventudes } from "@/pages";
 import {
   HomeIcon,
   UserCircleIcon,
@@ -30,6 +30,12 @@ export const routes = [
     name: "Convocatorias Sistema Desarrollo Empresarial",
     path: "/sistema",
     element: <Sistema />,
+  },
+  {
+    icon: UserPlusIcon,
+    name: "Convocatorias Juventudes",
+    path: "/juventudes",
+    element: <Juventudes />,
   },
 ];
 
