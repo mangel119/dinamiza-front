@@ -125,6 +125,10 @@ Footer.defaultProps = {
           name: "Convocatorias Sistema de Desarrollo Empresarial",
           path: "http://localhost:5173/sistema",
         },
+        {
+          name: "Convocatorias Juventudes",
+          path: "http://localhost:5173/juventudes",
+        },
       ],
     },
     {

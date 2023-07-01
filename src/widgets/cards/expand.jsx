@@ -32,7 +32,7 @@ export function Expand(props) {
               <div className="h-[8rem] overflow-scroll">
                 {props.descripcion}
               </div>
-              <div className="columns-2 mt-4">
+              <div className="columns-3 mt-4">
                 <Typography variant="h6">
                   Equipo:
                 </Typography>
@@ -44,6 +44,18 @@ export function Expand(props) {
                 </Typography>
                 <Typography>
                   {props.categoria}
+                </Typography>
+                <Typography variant="h6">
+                  Teléfono:
+                </Typography>
+                <Typography>
+                  {props.telefono}
+                </Typography>
+                <Typography variant="h6">
+                  Correo:
+                </Typography>
+                <Typography>
+                  {props.correo}
                 </Typography>
                 <Typography variant="h6">
                   Inicio:

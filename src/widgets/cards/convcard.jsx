@@ -57,7 +57,9 @@ export function Convcard() {
               inicio={item.dateStart} 
               fin={item.dateEnd} 
               equipo={item.team} 
-              categoria={item.category}/>
+              categoria={item.category}
+              telefono={item.tel}
+              correo={item.email}/>
             </div>
           </CardFooter>
         </Card>
