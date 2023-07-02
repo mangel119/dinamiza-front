@@ -34,7 +34,8 @@ export function Juventudes() {
                 <div className="mt-2 flex flex-wrap justify-center">
                   <div className="flex w-full flex-col items-center px-4 lg:w-9/12">
                     <Typography className="mb-8 font-normal text-blue-gray-500">
-                    Las convocatorias para juventudes son llamados o invitaciones abiertas dirigidas a jóvenes con el fin de brindarles oportunidades de participación, desarrollo y crecimiento en diversos ámbitos. 
+                    Las convocatorias para juventudes son llamados o invitaciones abiertas dirigidas a jóvenes con el fin de 
+                    brindarles oportunidades de participación, desarrollo y crecimiento en diversos ámbitos. 
                     </Typography>
                   </div>
                   <div className="container mx-auto flex flex-wrap justify-center">

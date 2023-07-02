@@ -31,7 +31,9 @@ export function Fondo() {
                 <div className="mt-2 flex flex-wrap justify-center">
                   <div className="flex w-full flex-col items-center px-4 lg:w-9/12">
                     <Typography className="mb-8 font-normal text-blue-gray-500">
-                      El Fondo Solidario y de Oportunidades es una iniciativa de la Administración Distrital, que busca apoyar a los microempresarios y vendedores formales e informales, para fortalecer sus unidades de negocio a través de un crédito público.
+                      El Fondo Solidario y de Oportunidades es una iniciativa de la Administración Distrital, que busca apoyar a 
+                      los microempresarios y vendedores formales e informales, para fortalecer sus unidades de negocio a través de 
+                      un crédito público.
                     </Typography>
                   </div>
                   <div className="container mx-auto flex flex-wrap justify-center">

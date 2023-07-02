@@ -65,7 +65,9 @@ export function Inicio() {
                 Economía Digital
               </Typography>
               <Typography className="mb-8 font-normal text-blue-gray-500">
-                La economía digital se refiere al uso de las tecnologías de la información en los procesos de producción de bienes y servicios, así como en su comercialización y consumo. Este término pone de manifiesto cómo la industria crea productos y servicios nuevos o transforma los existentes, aprovechando la tecnología.
+                La economía digital se refiere al uso de las tecnologías de la información en los procesos de producción de bienes y servicios, 
+                así como en su comercialización y consumo. Este término pone de manifiesto cómo la industria crea productos y servicios nuevos 
+                o transforma los existentes, aprovechando la tecnología.
                 <br />
                 <br />
               </Typography>
@@ -91,7 +93,8 @@ export function Inicio() {
                     Talento TIC
                   </Typography>
                   <Typography className="font-normal text-blue-gray-500">
-                  Es una iniciativa de la Secretaría de Desarrollo Económico de Cali, cuyo objetivo es proveer al sector empresarial de Cali de personas que pudan suplir sus necesidades de talento humano con competencias en tecnología.
+                  Es una iniciativa de la Secretaría de Desarrollo Económico de Cali, cuyo objetivo es proveer al sector empresarial de Cali de 
+                  personas que pudan suplir sus necesidades de talento humano con competencias en tecnología.
                   </Typography>
                 </CardBody>
               </Card>
@@ -110,7 +113,9 @@ export function Inicio() {
                 Economía Circular
               </Typography>
               <Typography className="mb-8 font-normal text-blue-gray-500">
-              La economía circular promueve la eficiencia en el uso de materiales, agua y energía; considerando la capacidad de recuperación de los ecosistemas, el uso circular de los flujos de materiales y la extensión de la vida útil a través de la innovación tecnológica, colaboración y alianzas entre actores y el impulso de modelos de negocios sostenibles.
+              La economía circular promueve la eficiencia en el uso de materiales, agua y energía; considerando la capacidad de recuperación 
+              de los ecosistemas, el uso circular de los flujos de materiales y la extensión de la vida útil a través de la innovación 
+              tecnológica, colaboración y alianzas entre actores y el impulso de modelos de negocios sostenibles.
                 <br />
                 <br />
               </Typography>
@@ -136,7 +141,8 @@ export function Inicio() {
                     CaliCircular
                   </Typography>
                   <Typography className="font-normal text-blue-gray-500">
-                  Es un modelo de desarrollo y gestión de ciudad para fomentar la transición hacia la Economía Circular, el cual es gestionado a través de la Secretaría de Desarrollo Económico de Cali.
+                  Es un modelo de desarrollo y gestión de ciudad para fomentar la transición hacia la Economía Circular, el cual es gestionado 
+                  a través de la Secretaría de Desarrollo Económico de Cali.
                   </Typography>
                 </CardBody>
               </Card>
