@@ -3,8 +3,7 @@ import {
   MapPinIcon,
 } from "@heroicons/react/24/solid";
 import { Footer } from "@/widgets/layout";
-import { Table } from "@/widgets/cards";
-import { Convcard } from "@/widgets/cards/convcard.jsx";
+import { Convcardj } from "@/widgets/cards/convcardj.jsx";
 
 import './App.css';
 
@@ -39,7 +38,7 @@ export function Juventudes() {
                     </Typography>
                   </div>
                   <div className="container mx-auto flex flex-wrap justify-center">
-                    <Convcard />
+                    <Convcardj />
                   </div>
                 </div>
               </div>

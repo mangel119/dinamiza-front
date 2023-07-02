@@ -82,18 +82,6 @@ export function Expand(props) {
           </div>
         </div>
         <DialogFooter>
-          {
-            /*
-          <Button
-            variant="text"
-            color="red"
-            onClick={() => handleOpen(null)}
-            className="mr-1"
-          >
-            <span>Cerrar</span>
-          </Button>
-            */
-          }
           <Button
             variant="gradient"
             color="red"

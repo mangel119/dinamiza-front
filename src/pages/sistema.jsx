@@ -3,8 +3,7 @@ import {
   MapPinIcon,
 } from "@heroicons/react/24/solid";
 import { Footer } from "@/widgets/layout";
-import { Table } from "@/widgets/cards";
-import { Convcard } from "@/widgets/cards/convcard.jsx";
+import { Convcards } from "@/widgets/cards/convcards.jsx";
 
 export function Sistema() {
   return (
@@ -37,7 +36,7 @@ export function Sistema() {
                     </Typography>
                   </div>
                   <div className="container mx-auto flex flex-wrap justify-center">
-                    <Convcard />
+                    <Convcards />
                   </div>
                 </div>
               </div>

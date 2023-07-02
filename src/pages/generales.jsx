@@ -3,7 +3,6 @@ import {
   MapPinIcon,
 } from "@heroicons/react/24/solid";
 import { Footer } from "@/widgets/layout";
-import { Table } from "@/widgets/cards";
 import { Convcard } from "@/widgets/cards/convcard.jsx";
 
 import './App.css';

@@ -3,8 +3,7 @@ import {
   MapPinIcon,
 } from "@heroicons/react/24/solid";
 import { Footer } from "@/widgets/layout";
-import { Table } from "@/widgets/cards";
-import { Convcard } from "@/widgets/cards/convcard.jsx";
+import { Convcardf } from "@/widgets/cards/convcardf.jsx";
 
 export function Fondo() {
   return (
@@ -36,7 +35,7 @@ export function Fondo() {
                     </Typography>
                   </div>
                   <div className="container mx-auto flex flex-wrap justify-center">
-                    <Convcard />
+                    <Convcardf />
                   </div>
                 </div>
               </div>
