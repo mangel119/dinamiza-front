@@ -1,4 +1,4 @@
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import { Navbar } from "@/widgets/layout";
 import routes from "@/routes";
 
@@ -11,7 +11,7 @@ function App() {
       <Routes>
         {routes.map(
           ({ path, element }, key) =>
-            element && <Route key={key} exact path={path} element={element} />
+            element && <Route key={key} exact path={path} element={element} />,
         )}
         <Route path="*" element={<Navigate to="/inicio" replace />} />
       </Routes>

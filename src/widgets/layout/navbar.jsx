@@ -111,7 +111,7 @@ Navbar.defaultProps = {
 };
 
 Navbar.propTypes = {
-  brandName: PropTypes.string,
+  brandName: PropTypes.object,
   routes: PropTypes.arrayOf(PropTypes.object).isRequired,
   action: PropTypes.node,
 };

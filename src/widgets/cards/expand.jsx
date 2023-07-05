@@ -87,7 +87,7 @@ export function Expand(props) {
             color="red"
             onClick={() => handleOpen(null)}
           >
-            <span>Cerrar</span>
+            Cerrar
           </Button>
         </DialogFooter>
       </Dialog>
